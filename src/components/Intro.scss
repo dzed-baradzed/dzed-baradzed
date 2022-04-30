@@ -1,0 +1,12 @@
+.currentRouteLink {
+    font-weight: bold;
+    display: flex;
+}
+  
+.intro {
+    // composes: currentRouteLink;
+    display: grid;
+    transition: all .12s;
+    user-select: none;
+    background: linear-gradient(to bottom, white, black);
+}
